@@ -20,7 +20,7 @@
 
 ![screenshot](readme-assets/Complite.gif)
 
-### Редактируй и удаляй привычки в разделе "Details".
+### Редактируй и удаляй привычки в разделе "DETAILS".
 
 ![screenshot](readme-assets/Edit.gif)
 
@@ -28,7 +28,7 @@
 
 ![screenshot](readme-assets/Stat.gif)
 
-### Мотивируйся цитатами великих людей в разделе "Quote".
+### Мотивируйся цитатами великих людей в разделе "QUOTE".
 
 ![screenshot](readme-assets/Quote.gif)
 
