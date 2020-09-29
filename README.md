@@ -1,2 +1,2 @@
 
-![screenshot](readme-assets/Logo.png)
+![screenshot](readme-assets/image.png)
