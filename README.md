@@ -1,1 +1,2 @@
-# expo-motivate
+
+![screenshot](readme-assets/Logo.png)
