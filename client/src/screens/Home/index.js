@@ -27,7 +27,6 @@ import { format } from 'date-fns';
 import {playSound, donatDone, details} from '../../audioFunctions'
 
 const { width, height } = Dimensions.get('window');
-console.log(height);
 const PADDING = width / 24;
 const ITEM_SIZE = (width - PADDING * 2) / 2 - PADDING;
 const headerHeight = 64;
@@ -416,7 +415,6 @@ const Home = (props) => {
   const [selectedId, setSelectedId] = useState(null);
   const [habits, setHabits] = useState([]);
   const [progressBar, setProgressBar] = useState(0);
-  // console.log(habits, "....>>>>dsadsaads");
 
   const uid = firebase.auth().currentUser.uid;
 
