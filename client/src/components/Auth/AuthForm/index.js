@@ -185,10 +185,6 @@ const AuthForm = () => {
                 errorCode ? setError(email) : null;
                 const credential = error.credential;
                 errorCode ? setError(credential) : null;
-                console.log(errorCode);
-                console.log(errorMessage);
-                console.log(email);
-                console.log(credential);
                 reject(error);
               });
           } else {
