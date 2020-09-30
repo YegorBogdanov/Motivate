@@ -15,7 +15,6 @@ export default function TestDb() {
     // })
     // firebase.firestore().collection().
     // const test = firebase.firestore().collection().get().then(info => console.log(info.docs))
-    // console.log(test);
     const create = await firebase
       .firestore()
       .collection('users')
@@ -29,7 +28,6 @@ export default function TestDb() {
 
       // get data
       const info = await firebase.firestore().collection('users').doc(currentUser.uid).get().then()
-      // console.log(info);
   };
 
   return (
