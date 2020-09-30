@@ -19,10 +19,6 @@ const RootNavigator = () => {
     return state.user;
   });
 
-  //   const [error, setError] = useState(null);
-  //   const dispatch = useDispatch();
-  //   const auth = useSelector(state => state.user);
-
   useEffect(() => {
     firebase.auth().onAuthStateChanged((firebaseUser) => {
       if (firebaseUser) {
