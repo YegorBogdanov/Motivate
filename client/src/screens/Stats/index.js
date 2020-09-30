@@ -18,13 +18,6 @@ const PADDING = 16;
 
 const screenWidth = Dimensions.get('window').width;
 
-// const data =[
-//   { x: new Date(1986, 1, 1), y: 2 },
-//   { x: new Date(1996, 1, 1), y: 3 },
-//   { x: new Date(2006, 1, 1), y: 5 },
-//   { x: new Date(2016, 1, 1), y: 4 }
-// ];
-
 const chartConfig = {
   backgroundColor: '#e26a00',
   backgroundGradientFrom: '#667eea',
@@ -137,11 +130,8 @@ const StatsMain = () => {
         }
       }
     }
-    // let lastDayOfFifthWeek = firstDayOfFifthWeek + 6;
-    // console.log(lastDayOfFifthWeek, '>>>>>>>>', thisDayOfWeek);
     habitsToChart.forEach((element) => {
       createdAt = new Date(element.createdAt).toLocaleDateString().split('/');
-      // console.log(createdAt);
       createdAtDay = Number(createdAt[1]);
       createdAtMonth = Number(createdAt[0]);
       if (element.type === 1) {
@@ -228,10 +218,8 @@ const StatsMain = () => {
     let percentOfPositive = (allPerformedPositiveNum / thisDay) * 100;
     let percentOfNegative =
       ((countsBadDays + 1 - allPerformedNegativeNum) / thisDay) * 100; // ПЛЮС 1 - КОСТЫЛЬ ЕСТЬ КОСЯК С ДАТАМИ
-    // console.log(countsBadDays - allPerformedNegativeNum);
     let percentPerformedInMonth = (percentOfPositive + percentOfNegative) / 2;
     setPercentPerformedInMonthShow(Math.floor(percentPerformedInMonth));
-    // console.log('999', percentPerformedInMonth);
 
     const datas = {
       labels: ['WEEK 1', 'WEEK 2', 'WEEK 3', 'WEEK 4'],
