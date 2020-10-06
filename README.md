@@ -3,7 +3,7 @@
 MOTIVATE является прототипом мобильного приложения для iOS/Android, которое призвано помочь в формировании полезных привычек и избавлении от вредных <br/>
 MOTIVATE is a prototype of a mobile app for iOS/Android which can help to get good habits and throw off bad ones.
 
-#### Аутентифицируйся, зарегистрируйся или выполни вход через Google account. (Authentificate, register or sign with Google account)
+#### Аутентифицируйся, зарегистрируйся или выполни вход через Google account. (Authentificate, register or sign in with Google account)
 
 ![screenshot](readme-assets/Auth.gif)
 
@@ -11,11 +11,11 @@ MOTIVATE is a prototype of a mobile app for iOS/Android which can help to get go
 
 ![screenshot](readme-assets/Profile.gif)
 
-#### Добавь привычки, над которыми ты хочешь работать. <br/>Фиксируй свои достижения в одно касание. (Add habits which you want to work at. <br/> Fix your achievements in one tap)
+#### Добавь привычки, над которыми ты хочешь работать. <br/>Фиксируй свои достижения в одно касание. (Add habits which you want to work at. <br/> Fix your achievments in one tap)
 
 ![screenshot](readme-assets/Habits.gif)
 
-#### Редактируй и удаляй привычки в разделе "Details". <br/>Следи за своим прогрессом в разделе статистики. <br/>Мотивируйся цитатами великих людей в разделе "Quote". <br/> (Edit and delete habits in "Details". <br/> Watch your progress in "Statistics". <br/> Motivete yourself by quotes of great people in "Qoute")
+#### Редактируй и удаляй привычки в разделе "Details". <br/>Следи за своим прогрессом в разделе статистики. <br/>Мотивируйся цитатами великих людей в разделе "Quote". <br/> (Edit and delete habits in "Details". <br/> Watch your progress in "Statistics". <br/> Motivate yourself by quotes of great people in "Qoute")
 
 ![screenshot](readme-assets/Stat.gif)
 
