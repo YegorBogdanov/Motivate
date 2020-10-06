@@ -15,7 +15,7 @@ MOTIVATE is a prototype of a mobile app for iOS/Android which can help to get go
 
 ![screenshot](readme-assets/Habits.gif)
 
-#### Редактируй и удаляй привычки в разделе "Details". <br/>Следи за своим прогрессом в разделе статистики. <br/>Мотивируйся цитатами великих людей в разделе "Quote". (Edit and delete habits in "Details". <br/> Watch your progress in "Statistics". <br/> Motivete yourself by quotes of great people in "Qoute")
+#### Редактируй и удаляй привычки в разделе "Details". <br/>Следи за своим прогрессом в разделе статистики. <br/>Мотивируйся цитатами великих людей в разделе "Quote". <br/> (Edit and delete habits in "Details". <br/> Watch your progress in "Statistics". <br/> Motivete yourself by quotes of great people in "Qoute")
 
 ![screenshot](readme-assets/Stat.gif)
 
@@ -31,7 +31,7 @@ MOTIVATE is a prototype of a mobile app for iOS/Android which can help to get go
 * расширение игрофикации приложения; (gamification extending)
 * создание web версии для более удобной работы со статистикой. (developing web version for more comfortable work with statistics)
 
-### Использованные технологии (Stack) (Technologies used):;
+### Использованные технологии (Stack):
 
 * React Native;
 * Firebase;
